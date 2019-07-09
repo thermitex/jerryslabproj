@@ -9,17 +9,17 @@ body {
 
 @font-face {
     font-family: 'Aleo';
-    src: url("/static/commonsrc/fonts/aleo-light-webfont.ttf");
+    src: url("aleo-light-webfont.ttf");
 }
 
 @font-face {
     font-family: 'Aleo-bold';
-    src: url("/static/commonsrc/fonts/aleo-bold-webfont.ttf");
+    src: url("aleo-bold-webfont.ttf");
 }
 
 @font-face {
     font-family: 'Aleo-reg';
-    src: url("/static/commonsrc/fonts/aleo-regular-webfont.ttf");
+    src: url("aleo-regular-webfont.ttf");
 }
 
 .container-fluid {
@@ -110,4 +110,14 @@ a:hover {
     -webkit-transition: 0.3s;
     background: white;
     color: black;  
+}
+
+.cmdtext {
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+.errtext {
+    font-weight: bold;
+    color: red;
 }
