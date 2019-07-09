@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-{% load static %}
-    
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="{% static 'mc/script.js' %}"></script>
+    <script src="script.js"></script>
     <title>Jerry's Lab</title>
 </head>
 
@@ -19,14 +17,14 @@
         <div class="row">
             <div class="col-sm-2">
                 <ul class="sidebar-nav">
-                    <img src="{% static 'commonsrc/logo/logofullw.png' %}" alt="logo" id="logo">
+                    <img src="https://www.jerryslab.cn/static/commonsrc/logo/logofullw.png" alt="logo" id="logo">
                     <li><a href="">Main Control Home</a></li>
                     <li><a href="">jerrysLib</a></li>
                     <li><a href="/home">Log Out</a></li>
                 </ul>
             </div>
             <div class="col-sm-10">
-                <h1>Good morning, root! <br>A good day starts with a good lab.</h1>
+                <h1 id="head"></h1>
                 <form>
                     <p><br>Run your commands here:</p>
                     <input type="text" class="input_text" id="command" name="command">
