@@ -1,0 +1,113 @@
+html,
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    margin: 0;
+    font-family: 'Aleo';
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url("aleo-light-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'Aleo-bold';
+    src: url("aleo-bold-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'Aleo-reg';
+    src: url("aleo-regular-webfont.ttf");
+}
+
+.container-fluid {
+    padding: 20px;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Aleo-bold';
+    margin: 20px 0;
+}
+
+h4 {
+    font-family: 'Aleo-reg';
+}
+
+a {
+    color: lightskyblue;
+    padding: 5px;
+}
+
+li {   
+    padding: 2px;
+}
+
+a:hover {
+    background-color: rgb(59, 59, 59);
+    color: lightskyblue;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    text-decoration: none;
+}
+
+.sidebar-nav {
+    list-style-type: none;
+}
+
+#logo {
+    max-width: 50%;
+    margin: 20px 0;
+    padding: 2px;
+}
+
+.input_text {
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    font-size: 12pt;
+    padding: 2px 5px;
+    color: inherit;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    outline: none;
+}
+
+.input_text:focus {
+    background-color: rgb(59, 59, 59);
+}
+
+.input_text:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+#output {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    max-height: 60vh;
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#clear {
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 6px;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Aleo';
+    float: right;
+    border-width: 1px;
+}
+
+#clear:hover {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    background: white;
+    color: black;  
+}
