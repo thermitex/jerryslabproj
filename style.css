@@ -9,17 +9,17 @@ body {
 
 @font-face {
     font-family: 'Aleo';
-    src: url("aleo-light-webfont.ttf");
+    src: url("/static/commonsrc/fonts/aleo-light-webfont.ttf");
 }
 
 @font-face {
     font-family: 'Aleo-bold';
-    src: url("aleo-bold-webfont.ttf");
+    src: url("/static/commonsrc/fonts/aleo-bold-webfont.ttf");
 }
 
 @font-face {
     font-family: 'Aleo-reg';
-    src: url("aleo-regular-webfont.ttf");
+    src: url("/static/commonsrc/fonts/aleo-regular-webfont.ttf");
 }
 
 .container-fluid {
